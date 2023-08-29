@@ -10,7 +10,7 @@
 
 .hero-slider {
   position: relative;
-  padding-top: 160px;
+  padding-top: 300px;
   overflow: hidden;
   @include min-screen(1200) {
     display: flex;
@@ -47,11 +47,12 @@
 .btn-orange{
   border-radius: 31.544px;
   background: #F2994A;
-  color:#fff;
+  color:#fff !important;
   font-size: 21.029px;
   font-style: normal;
   font-weight: 700;
   line-height: 140%; /* 29.441px */
+  padding: 0px 30px;
 }
 
 .intro-desc{

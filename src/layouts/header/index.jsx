@@ -31,7 +31,7 @@ const Header = () => {
             >
                 <div className="container">
                     <div className="row align-items-center">
-                        <div className="col">
+                        <div className="col-3">
                             <div className="header-logo">
                                 <Logo
                                     classOption="d-block"
@@ -40,7 +40,7 @@ const Header = () => {
                             </div>
                         </div>
 
-                        <div className="col text-end">
+                        <div className="col-9 text-end">
                             <MainMenu />
                             <button
                                 className="toggle"

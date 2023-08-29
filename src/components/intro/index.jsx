@@ -6,15 +6,15 @@ import Parallax from "parallax-js";
 const Intro = ({ data }) => {
     const sceneEl = useRef(null);
 
-    useEffect(() => {
-        const parallaxInstance = new Parallax(sceneEl.current, {
-            relativeInput: true,
-        });
+    // useEffect(() => {
+    //     const parallaxInstance = new Parallax(sceneEl.current, {
+    //         relativeInput: true,
+    //     });
 
-        parallaxInstance.enable();
+    //     parallaxInstance.enable();
 
-        return () => parallaxInstance.disable();
-    }, []);
+    //     return () => parallaxInstance.disable();
+    // }, []);
     return (
         <div className="hero-slider">
             <div className="container">
@@ -27,7 +27,6 @@ const Intro = ({ data }) => {
                         >
                             <div data-depth="0.2">
                                 <img
-                                    className="animated"
                                     src={`${process.env.PUBLIC_URL}/images/slider/image1.png`}
                                     alt=""
                                 />

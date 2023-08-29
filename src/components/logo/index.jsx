@@ -5,7 +5,7 @@ const Logo = ({ image, classOption }) => {
     return (
         <Link className={`${classOption}`} to={process.env.PUBLIC_URL + "/"}>
             <img
-                className="logo-main"
+                className="logo-footer"
                 src={process.env.PUBLIC_URL + image}
                 alt="Logo"
             />

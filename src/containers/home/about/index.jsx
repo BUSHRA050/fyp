@@ -6,15 +6,15 @@ import Parallax from "parallax-js";
 const HomeAboutContainer = () => {
     const sceneEl = useRef(null);
 
-    useEffect(() => {
-        const parallaxInstance = new Parallax(sceneEl.current, {
-            relativeInput: true,
-        });
+    // useEffect(() => {
+    //     const parallaxInstance = new Parallax(sceneEl.current, {
+    //         relativeInput: true,
+    //     });
 
-        parallaxInstance.enable();
+    //     parallaxInstance.enable();
 
-        return () => parallaxInstance.disable();
-    }, []);
+    //     return () => parallaxInstance.disable();
+    // }, []);
     return (
         <div className="about-us position-relative">
             <div className="container">
@@ -29,14 +29,14 @@ const HomeAboutContainer = () => {
                                 </span>"
                             />
                             <p className="mb-5">
-                                Pleasure rationally encounter consequences that
-                                are extremely painful. Nor again is there anyone
-                                who loves or pursues or desires to obtain
+                                Find your New Job Today! New Job Postings
+                                Everyday just for you, browser the job you want
+                                and apply whatever you want
                             </p>
                             <Button
                                 classOption="btn btn-lg btn-dark btn-hover-dark"
                                 text="Learn more"
-                                path="/about"
+                                path="/#"
                             />
                         </div>
                     </div>
