@@ -6,11 +6,6 @@ const MainMenu = () => {
         <nav className="main-menu d-none d-lg-block">
             <ul className="d-flex justify-content-end align-items-center">
                 <li>
-                    <NavLink exact to="/">
-                        Home
-                    </NavLink>
-                </li>
-                <li>
                     <NavLink to={process.env.PUBLIC_URL + "/#"}>
                         Resume AI
                     </NavLink>
@@ -26,13 +21,13 @@ const MainMenu = () => {
                     </NavLink>
                 </li>
                 <li>
-                    <NavLink to={process.env.PUBLIC_URL + "/#"}>Login</NavLink>
+                    <NavLink to={process.env.PUBLIC_URL + "/Login"}>Login</NavLink>
                 </li>
                 <li>
                     <Button
                         classOption="btn btn-lg btn-orange"
                         text="Sign Up"
-                        path="/#"
+                        path={process.env.PUBLIC_URL + "/Signup"}
                     />
                 </li>
             </ul>

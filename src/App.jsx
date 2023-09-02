@@ -1,6 +1,8 @@
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import NavScrollTop from "./components/nav-scroll-top";
 import HomePage from "./pages/index";
+import Login from "./pages/login";
+import Signup from "./pages/Signup";
 import "swiper/components/navigation/navigation.scss";
 import "swiper/swiper.scss";
 import "./assets/css/vendor/metropolis.css";
@@ -19,6 +21,16 @@ const App = () => {
                         path={`${process.env.PUBLIC_URL + "/"}`}
                         exact
                         component={HomePage}
+                    />
+                    <Route
+                        path={`${process.env.PUBLIC_URL + "/Login"}`}
+                        exact
+                        component={Login}
+                    />
+                    <Route
+                        path={`${process.env.PUBLIC_URL + "/Signup"}`}
+                        exact
+                        component={Signup}
                     />
                 </Switch>
             </NavScrollTop>
