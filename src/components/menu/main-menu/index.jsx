@@ -6,11 +6,6 @@ const MainMenu = () => {
         <nav className="main-menu d-none d-lg-block">
             <ul className="d-flex justify-content-end align-items-center">
                 <li>
-                    <NavLink exact to="/">
-                        Home
-                    </NavLink>
-                </li>
-                <li>
                     <NavLink to={process.env.PUBLIC_URL + "/#"}>
                         Resume AI
                     </NavLink>
