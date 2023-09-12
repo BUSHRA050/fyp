@@ -20,7 +20,9 @@ const ContactContainer = () => {
                                 Forgot Your Password?
                                 <br className="d-none d-xl-block" />
                                 Dont have an account?{" "}
-                                <NavLink to={process.env.PUBLIC_URL + "/login"}>
+                                <NavLink
+                                    to={process.env.PUBLIC_URL + "/signup"}
+                                >
                                     Sign Up
                                 </NavLink>
                             </p>
