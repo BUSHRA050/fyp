@@ -26,13 +26,15 @@ const MainMenu = () => {
                     </NavLink>
                 </li>
                 <li>
-                    <NavLink to={process.env.PUBLIC_URL + "/#"}>Login</NavLink>
+                    <NavLink to={process.env.PUBLIC_URL + "/login"}>
+                        Login
+                    </NavLink>
                 </li>
                 <li>
                     <Button
                         classOption="btn btn-lg btn-orange"
                         text="Sign Up"
-                        path="/#"
+                        path={process.env.PUBLIC_URL + "/signup"}
                     />
                 </li>
             </ul>

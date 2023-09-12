@@ -77,7 +77,7 @@
                     background-color: $success;
                 }
                 &.sale {
-                    background-color: #FF2F2F;
+                    background-color: #ff2f2f;
                 }
             }
         }
@@ -120,7 +120,7 @@
                     opacity: 0;
                 }
                 &.active {
-                    color: #FF3333;
+                    color: #ff3333;
                 }
                 &:hover {
                     &:not(.active) {
@@ -157,7 +157,7 @@
 
                 position: relative;
 
-                color: #CCCCCC;
+                color: #cccccc;
                 &::before {
                     font-family: $icoFont;
 
@@ -170,7 +170,7 @@
 
                     overflow: hidden;
 
-                    color: #FF9806;
+                    color: #ff9806;
                     &::before {
                         font-family: $icoFont;
 
@@ -213,7 +213,7 @@
             }
             & span {
                 &.new {
-                    color: #FF2F2F;
+                    color: #ff2f2f;
                 }
                 &.old {
                     font-size: 14px;
